@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;0,900;1,200&family=Work+Sans:ital,wght@0,200;0,400;0,500;0,600;0,700;0,900;1,100;1,500;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;0,900;1,200&family=Work+Sans:ital,wght@0,200;0,400;0,500;0,600;0,700;0,900;1,100;1,500;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat" sans-serif;
+}
+/* header-part */
+header {
+    width: 100%;
+    float: left;
+    background: url("../img/hero\ background.png") no-repeat;
+    background-size: cover;
+}
+header .container {
+    width: 95%;
+    margin: auto;
+}
+header .container .main-header {
+    width: 100%;
+    float: left;
+    padding: 65px 0 50px 0;
+}
+.container .logo-part {
+    width: 30%;
+    float: left;
+}
+.container .express-delivery-part {
+    width: 70%;
+    float: left;
+    margin: 0 0 20px 0;
+}
+.express-delivery-part img {
+    width: 5%;
+    float: left;
+    display: block;
+    margin: 0 20px 0 647px;
+}
+span {
+    padding: 12px 0 0 0;
+    display: block;
+    font-size: 17px;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #4F240F;
+}
+nav {
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+nav ul {
+    letter-spacing: 2px;
+}
+nav ul a {
+    text-decoration: none;
+}
+nav ul a li {
+    display: inline-block;
+    font-family: Montserrat;
+    color: #4F240F;
+    font-weight: 600;
+    margin: 0 0 0 45px;
+    font-size: 15px;
+}
+.hero-part {
+    width: 100%;
+    float: left;
+    padding: 0 0 50px 0;
+}
+.hero-part .container {
+    
+}
+.hero-part .container .writing-part {
+    width: 50%;
+    float: left;
+}
+.hero-part .container .writing-part .first-h1 {
+    font-size: 15px;
+    margin: 80px 0 0 0;
+    letter-spacing: -1px;
+    color: #4F240F;
+    font-family: Montserrat;
+    word-spacing: 1px;
+    border: 3px dashed ;
+    display: inline-block;
+    padding:15px;
+    
+}
+.hero-part .container .writing-part .burger {
+    font-weight: 800;
+    font-size: 130px;
+    color: #4F240F;
+    font-family: Montserrat;
+    margin-left: -8px;
+}
+.hero-part .container .writing-part .week {
+    font-weight: 800;
+    font-size: 70px;
+    color: #4F240F;
+    font-family: Montserrat;
+    
+}
+.hero-part .container .img-part {
+    width: 50%;
+    float: left;
+}
+.hero-part .container .img-part img {
+    margin: 30px 0 0 0;
+}
+/* second section  */
+#second-section {
+    width: 100%;
+    float: left;
+}
+.left-img-part {
+    color: white;
+    width: 50%;
+    float: left;
+    background: url("../img/Burger\ second.png") no-repeat;
+    font-family: Montserrat;
+    padding: 20px;
+    position: relative;
+    left: 115px;
+    top: 85px;
+}
+.left-img-part .try {
+    font-size: 25px;
+    margin: 10px 0 0 0;
+    letter-spacing: -1px;
+}
+.left-img-part .most {
+    font-size: 25px;
+    margin: 10px 0 339px 0;
+
+}
+.right-img-part {
+    width: 50%;
+    float: left;
+    color: white;
+    position: relative;
+    left: 25px;
+    top: 85px;
+}
+.right-img-part .first-img {
+    background: url("../img/img.png") no-repeat;
+    font-family: Montserrat;
+    padding: 0 0 0 20px;
+}
+.right-img-part .first-img .try-it {
+    font-size: 17px;
+    padding: 35px 0 0 0 ;
+}
+.right-img-part .first-img .more {
+    font-size: 27px;
+}
+.right-img-part .first-img .taste {
+    font-size: 30px;
+    padding: 0 0 67px 0;
+}
+.right-img-part .last-img {
+    background: url("../img/fresh\ and\ chili\ img.png") no-repeat;
+    width: 80%;
+    font-family: Montserrat;
+    margin: 38px 0 0 0 ;
+    padding: 0 0 0 20px;
+}
+.right-img-part .last-img .it {
+    padding: 30px 0 0 0 ;
+    font-size: 17px;
+}
+.right-img-part .last-img .fress {
+    font-size: 25px;
+    padding: 0 0 114px 0;
+}
